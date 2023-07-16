@@ -93,37 +93,7 @@ margin-top: 30px;
 }
 
 
-/* responsive media quary  for phone */
 
-
-@media screen and (max-width: 576px) { 
-    
-  header{
-    padding: 20px;
-  }
-
-    nav{
-        flex-direction: column;
-    }
-
-}
-
-
-/* responsive media quary  for tablet  */
-
-@media screen and (min-width: 576px) and (max-width: 960px) {
-    
-    
-    header{
-
-      padding: 50px;
-
-    }
-    nav{
-
-      flex-direction: column;
-    }
-}
 
 
 
@@ -133,7 +103,7 @@ margin-top: 30px;
 main{
 
   max-width: 1440px;
-  margin: 0px auto;
+  margin: 70px auto;
 }
 
 
@@ -191,4 +161,114 @@ padding-left: 20px;
   font-size:15px;
   font-weight: 400px;
 }
+
+
+
+
+/*  facts card section */
+
+
+.Feature-container{
+
+ margin-top: 100px;
+}
+
+.facts-card-container{
+
+   display: flex;
+  justify-content: space-around;
+ 
+  
+  
+  
+}
+
+.card{
+  text-align: center;
+  border: 1px solid  ;
+  padding: 30px;
+  border-radius: 5px;
+
+}
+
+
+.card img{
+width: 45px;
+height: 45px;
+margin-top: 20px;
+}
+
+
+.card-point{
+
+  font-size: 25px;
+  font-weight:600px;
+}
+
+.card-title{
+  font-size: 20px;
+   font-weight: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media quary  for phone */
+
+@media screen and (max-width: 576px) { 
+    
+  header, .Feature-container, .nav, .banner-container{
+     {
+        flex-direction: column;
+    }
+
+    .team-img-content {
+
+      grid-template-columns: 1fr;
+    }
+
+
+  .Feature-containe {
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  }
+}
+
+/* responsive media quary  for tablet  */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+
+  header{
+    padding: 50px;
+
+  }
+  nav{
+    flex-direction: column;
+  }
+}
+
+
+
 
