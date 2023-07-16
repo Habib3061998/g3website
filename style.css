@@ -213,16 +213,36 @@ margin-top: 20px;
 
 
 
+/*  sponsor section */
 
 
 
 
+.sponsor-container{ 
+  text-align: center;
+  
+}
+
+.sponsor-img{
+  display: flex;
+  justify-content: space-around;
+
+}
 
 
 
+.sponsor-title{
+  font-size:45px;
+  font-weight: 700px;
+}
 
 
 
+.sponsor-descripsion{
+
+  font-size: 12px;
+  font-family: 400px;
+}
 
 
 
